@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Order Application</title>
+</head>
+<body>
+    <section>
+    <h2>Place an order here:</h2>
+    <input type="text" id="name" placeholder="Your Name" required><br><br>
+<div class="wrapper">
+    <div class="category">
+    <h3>Pizza</h3>
+    <label>Choose an Item:</label>
+    <select id="itemPizza">
+        <option value="Margherita">Margherita</option>
+        <option value="Pepporoni">Pepporoni</option>
+        <option value="Hawaiian">Hawaiian</option>
+        <option value="MeatFeast">Meat Feast</option>
+        <option value="BBQ Chicken">BBQ Chciken</option>
+    </select><br><br>
+    </div>
+    <div class="category">
+    <h3>Burgers</h3>
+    <label>Choose an Item:</label>
+    <select id="itemBurger">
+        <option value="Cheese">Cheese Burger</option>
+        <option value="Chciken Fillet">Chicken Fillet</option>
+        <option value="Quater Pounder">Quater Pounder</option>
+        <option value="Half Pounder">Half Pounder</option>
+        <option value="Veggie">Veggie Burger</option>
+    </select><br><br>
+    </div>
+</div>
+
+    <button onclick="placeOrder()">Place Your Order</button>
+    <p id="orderResult"></p>
+    </section>
+    <h1>-------------------------------------------------------------</h1>
+
+
+    <section>
+        <h2>Track Your Order</h2>
+        <input type="text" id="orderNum" placeholder="Enter your order number:"><br><br>
+        <button onclick="trackOrder()">Track Order</button>
+        <p id="orderStatus"></p>
+    </section>
+</body>
