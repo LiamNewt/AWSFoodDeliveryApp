@@ -1,80 +1,89 @@
-.wrapper{
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 20px;
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.outerContainer{
-    background-image: url(/backgroundImg.png);
-    padding: 50px;
-    border: solid black 2px;
-    border-radius: 10px;
+.wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
 }
-h1{
-    color: white;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+.outerContainer {
+  background-image: url(/backgroundImg.png);
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: solid black 2px;
+  border-radius: 10px;
 }
-.enterName{
-    justify-self: center;
-    background-color: white;
-    padding: 10px;
-    border: solid black 2px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    width: 400px;
-    align-items: center;
+h1 {
+  color: white;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.enterName {
+  justify-self: center;
+  background-color: white;
+  padding: 10px;
+  border: solid black 2px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  width: 400px;
+  align-items: center;
 }
 
-input{
-    padding: 5px;
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 10px;
+input {
+  padding: 5px;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 10px;
 }
-.category{
-    background-color: white;
-    padding: 25px;
-    border: solid black 2px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
+.category {
+  background-color: white;
+  padding: 25px;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.buttonOrder{
-    text-align: center;
+.buttonOrder {
+  text-align: center;
 }
-.placeOrder{
-    background-color: rgb(107, 215, 107);
-    padding: 20px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;  
+.placeOrder {
+  background-color: rgb(107, 215, 107);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
-#itemPizza, #itemBurger, #itemKebab, #itemChicken{
-    border-radius: 20px;
-    width: 100px;
-    border: solid 2px black;
+#itemPizza,
+#itemBurger,
+#itemKebab,
+#itemChicken {
+  border-radius: 20px;
+  width: 100px;
+  border: solid 2px black;
 }
-.trackOrderSec{
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 18px;
-    border:  solid 2px black;
-    justify-self: center;
-    font-family: Arial, Helvetica, sans-serif;
+.trackOrderSec {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 18px;
+  border: solid 2px black;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.orderTrack{
-    background-color: orangered;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.orderTrack {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
