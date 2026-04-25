@@ -11,7 +11,7 @@
     <h1>Food Order Application</h1>
     <section class="enterName">
     <h3>Place an order:</h3>
-    <input type="text" id="number" placeholder="Enter your phone number:" required><br><br>
+    <input type="text" id="name" placeholder="Enter your name here:" required><br><br>
     </section>
 
     <section>
@@ -63,7 +63,7 @@
         <option value="ChcikenTKebab">Chicken Tikka Kebab</option>
         <option value="ShishKebab">Shish Kebab</option>
         <option value="ChickenKebab">Chicken Kebab</option>
-        <option value="veggieKebab">veggie Kebab</option>
+        <option value="VeggieKebab">veggie Kebab</option>
     </select><br><br>
     </div>
 </div>
@@ -72,13 +72,13 @@
     </div>
     <p id="orderResult"></p>
     </section>
-    <h1>-------------------------------------------------------------</h1>
+    <h1>--------------------------------------------------------------------------------------------------------------------------------</h1>
 
 
-    <section>
+    <section class="trackOrderSec">
         <h2>Track Your Order</h2>
         <input type="text" id="orderNum" placeholder="Enter your order number:"><br><br>
-        <button onclick="trackOrder()">Track Order</button>
+        <button class="orderTrack" onclick="trackOrder()">Track Order</button>
         <p id="orderStatus"></p>
     </section>
 </body>
